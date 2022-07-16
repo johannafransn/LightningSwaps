@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Prompt", sans-serif;
+}
+
+main {
+  margin-top: 7rem;
+  text-align: center;
+  top: 20px;
+  margin-bottom: 100px;
+}
+
+.btn-light {
+  color: #fff;
+  background-color: #0e1340;
+  border-color: #0e1340;
+  margin-left: 20px;
+  width: 140px;
+}
+.btn-light:hover {
+  color: #fff;
+  background-color: #3c4278;
+  border-color: #0e1340;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #0e1340;
+}
+
+.modal-content {
+  background-color: white;
+  color: #0e1340;
+  border-radius: 15px;
+  border: 2px solid #3c4278;
+}
+.closeButton {
+  color: white !important;
+}
+
+.why-use-weth-link {
+  color: #0e1340;
+}
+
+.why-use-weth-link:hover {
+  color: #95bcf0;
+}
+
+.metamask-addr-container {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 12px;
+}
+
+.btn-light.mm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #0e1340;
+  background-color: #fff;
+  border-color: #3c4278;
+  border-radius: 15px;
+  margin-left: 20px;
+  width: 180px;
+  font-size: 14px;
+}
+
+.btn-light.mm:hover {
+  color: #0e1340;
+  background-color: #d3d8ee;
+  border-color: #3c4278;
+}
