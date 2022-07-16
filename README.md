@@ -1,6 +1,6 @@
 # About This Repository
 
-Lightning network swaps
+Lightning network swaps, see a demo of the project on IPFS: https://lightningswaps.on.fleek.co/
 
 # How To Run This Project On Your Local Machine
 
